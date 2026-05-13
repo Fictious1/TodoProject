@@ -6,13 +6,12 @@ while True:
     print("2. View Tasks")
     print("3. Delete Task")
     print("4. Exit")
-
     choice = input("Enter your choice: ")
 
     if choice == '1':
         task = input("Enter task: ")
         tasks.append(task)
-        print("Task Added!")
+        print("Task has been successfully Added!")
 
     elif choice == '2':
         print("\nYour Tasks:")
@@ -35,6 +34,5 @@ while True:
     elif choice == '4':
         print("Goodbye!")
         break
-
     else:
         print("Invalid choice.")
