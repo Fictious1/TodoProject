@@ -11,7 +11,7 @@ while True:
     if choice == '1':
         task = input("Enter task: ")
         tasks.append(task)
-        print("Task has been successfully Added!")
+        print("Task has been Added!")
 
     elif choice == '2':
         print("\nYour Tasks:")
